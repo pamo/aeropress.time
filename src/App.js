@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class App extends Component {
-  render() {
-    return (
-      <h1>Hello, world.</h1>
+const App = (props) => {
+  const { title } = props;
+  return (
+    <h1>{title}</h1>
     );
-  }
-}
+};
+
+App.propTypes = {
+  title: React.PropTypes.string
+};
+
+export default App;

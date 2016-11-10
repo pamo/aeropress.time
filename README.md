@@ -3,12 +3,9 @@ AeroPress Time!
 
 Inspired by [AeroPress Timer](http://aeropresstimer.com/)
 
-## Goals
-
 - [ ] Unit tested
-- [ ] Deploy to SnapCI
-- [ ] Serverless
-- [ ] Deployed to Github Pages
-- [ ] Offline Data
+- [ ] Snap CI
+- [ ] Deployed
+- [ ] Simple storage
 - [ ] Progressive Web App
-- [ ] Simple JSON storage
+- [ ] Offline Data
